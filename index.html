@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Sommeil - Retrouvez vos nuits</title>
+    <style>
+        /* DESIGN DU SITE */
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            /* Fond d'écran dégradé apaisant (nuit étoilée) */
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h1 { font-size: 2.5em; margin-bottom: 10px; color: #a1c4fd; }
+
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1); /* Boîte semi-transparente */
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px); /* Effet de flou moderne */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            margin: 20px;
+        }
+
+        .conseil-card {
+            border-left: 4px solid #a1c4fd;
+            padding-left: 15px;
+            margin-bottom: 25px;
+        }
+
+        /* BOUTON POUR GAGNER DE L'ARGENT (AFFILIATION) */
+        .btn-money {
+            display: inline-block;
+            background: #ff9a9e;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+
+        .btn-money:hover { transform: scale(1.05); background: #fad0c4; }
+
+        footer { margin-top: auto; padding: 20px; font-size: 0.8em; opacity: 0.7; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dormir Profondément</h1>
+    <p>Conseils d'experts pour transformer vos nuits et votre vie.</p>
+</header>
+
+<div class="container">
+    <div class="conseil-card">
+        <h2>🌙 Pourquoi vous ne dormez pas ?</h2>
+        <p>Le stress et la lumière bleue des écrans bloquent la mélatonine, l'hormone du sommeil. Pour réussir à s'endormir, votre chambre doit être à 18°C.</p>
+    </div>
+
+    <div class="conseil-card">
+        <h2>✨ Ma sélection pour mieux dormir</h2>
+        <p>Après avoir testé plusieurs solutions, voici l'accessoire que je recommande pour bloquer 100% de la lumière :</p>
+        <a href="#" class="btn-money">Voir le meilleur masque de sommeil →</a>
+    </div>
+
+    <div class="conseil-card">
+        <h2>🧘 Routine de 5 minutes</h2>
+        <p>Pratiquez la cohérence cardiaque : inspirez 5 secondes, expirez 5 secondes. Répétez cela 3 minutes avant d'éteindre la lumière.</p>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 Expert Sommeil - Site créé avec GitHub Pages
+</footer>
+
+</body>
+</html>
